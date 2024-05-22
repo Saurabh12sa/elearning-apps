@@ -2,12 +2,11 @@ package in.saurabhit.beans;
 
 public class MyApp {
 	
-	public static void main(String[] args) {
+	public int add(int a,int b) {
 		
-		Calculator c = new Calculator();
-		Integer result = c.add(12, 13);
-		System.out.println(result);
-				
+		return a+b;
 	}
+	
+	
 
 }
